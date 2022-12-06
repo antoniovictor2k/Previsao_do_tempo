@@ -1,0 +1,191 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+    background-image: url("../IMG/Fundo/2.jpg");
+    
+    color: #ffffff;
+
+    font-family: 'Gill Sans',  sans-serif;
+}
+
+.divContainerPaginaPrincipal{
+    cursor: default;
+
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+.divPesquisarCidade{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pesquisarCidade{
+    border-style: none;
+    border-bottom-style: solid ;
+    border-color: black;
+    background: local;
+
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.imgPesquisarCidade{
+  margin-left: 20px;  
+width: 30px;
+}
+.divCidade{
+    font-size: 320%;
+    font-weight: 600;
+}
+.divdata,
+.divCidade,
+.divEllipse
+{
+    padding-top: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.divCidade{
+    padding-top: 0px;
+}
+.divEllipse{
+    padding-top: 20px;
+}
+
+
+.divEllipse1{
+    margin-top: 0px;
+    
+
+width: 340px;
+height: 340px;
+
+border: solid 1px #ff0000;
+
+border-radius: 80%;
+background: #FFFFFF;
+box-shadow: 0px 28px 36px rgba(96, 209, 234, 0.4);
+}
+
+.divImgNuvem,
+.imgNuvem,
+.divTemperatura
+{
+    position: absolute;
+    
+}
+.divTemperatura{
+    margin-top: 120px;
+    color: black;
+    font-size: 830%;
+}
+
+
+
+
+.imgNuvem{
+    margin-top: 20px;
+    margin-left: 130px;
+
+}
+.divCategoriaLinha1{
+    padding-top: 30px;
+}
+.divCategoriaLinha1,
+.divCategoriaLinha2,
+.divCategoriaLinha3,
+.divCategoriaLinha4
+
+
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 180px;
+}
+
+.divCategoriaLinha2,
+.divCategoriaLinha3,
+.divCategoriaLinha4
+{
+    padding-top: 10px;
+}
+
+.divRectangle{
+    padding-top: 18px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.divRectangle1
+{
+    width: 414px;
+    height: 289px;
+    background: linear-gradient(233.68deg, #E3E3E3 -3.39%, rgba(255, 255, 255, 0) 88.51%), #FFFFFF;
+    border-radius: 60px 60px 0px 0px;
+}
+.rectangleTexto{
+    margin-top: 50px;
+    margin-left: 15px;
+    color: #000000;
+    font-weight: 700;
+}
+.rectanglecontainer{
+    color: #000000;
+}
+.rectanglecontainer{
+    margin-top: 35px;
+    gap: 8px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.rectangle20
+{
+width: 70px;
+height: 75px;
+border: 1px solid #D5D5D5;
+border-radius: 20px;
+}
+#dia1,
+#dia2,
+#dia3,
+#dia4,
+#dia5{
+    margin-left: 5px;
+    color: #ff0000;
+}
+
+#dayGrau1,
+#dayGrau2,
+#dayGrau3,
+#dayGrau4,
+#dayGrau5{
+   
+    margin-left: 15px;
+    color: #ff0000;
+
+    flex-wrap: nowrap;
+}
+
+.dayImg1,
+.dayImg2,
+.dayImg3,
+.dayImg4,
+.dayImg5{
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
